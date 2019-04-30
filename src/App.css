@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background: #eee;
+  height: -webkit-fill-available;
+}
+
+
+.bkg-comp {
+  background: #ccc;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid #999;
+  padding: 20px;
+}
+
+.app-user-name{
+  display: inline-block;
+  background: #444;
+  color: #fff;
+  padding: 5px 40px;
+  margin: 10px 10px;
+}

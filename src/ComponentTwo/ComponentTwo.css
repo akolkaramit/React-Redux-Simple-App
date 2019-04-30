@@ -1,0 +1,4 @@
+.comp-two {
+    display: flex;
+    flex-direction: column;
+}
